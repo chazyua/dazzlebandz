@@ -1,0 +1,52 @@
+
+.home {
+    font-family: 'Libre Baskerville', serif;
+    background: linear-gradient(150deg, rgba(255, 204, 36, 0.171), rgb(255, 255, 255));
+
+}
+.display-1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 8rem;
+}
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    color: white;
+
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    /* Background styles */
+    background-image: linear-gradient(rgba(27, 16, 0, 0.7),rgba(0, 0, 0, 0.1)), url(/img/dbBanner1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.call-to-action {
+    color: white;
+    background-color: #21ce99;
+}
+.btn-rounded {
+    padding: 1em;
+    border-radius: 50px;
+}
+
+.call-to-action:hover {
+    color: white;
+    background-color: #01ae79;
+}
+
+.message .mb-0 {
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arizonia';
+    font-size: 5em;
+}

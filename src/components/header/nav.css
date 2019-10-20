@@ -1,0 +1,43 @@
+.navbar {
+    font-family: 'Libre Baskerville', serif;
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.navbar-brand {
+    padding: 0 5px;
+    border: 2px solid white;
+}
+
+.item-click {
+    cursor: pointer;
+    background-color: rgba(88, 88, 88, 0.8);
+    margin: 1px;
+    border-radius: 4px;
+}
+
+.active {
+    padding-bottom: 8%;
+    border-bottom: 2px white solid;
+}
+@media only screen and (max-width: 991px) {
+    .nav-item {
+        text-align: right;
+    }
+    .active {
+        padding-bottom: 1%;
+    }
+}
+
+.navbar-toggler {
+    cursor: pointer;
+    background-color: rgba(88, 88, 88, 0.5);
+    margin: 1px;
+    border-radius: 4px;
+}
+.nav-link {
+    text-align: center;
+    width: 5em;
+    float: right;
+}
