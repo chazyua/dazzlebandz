@@ -9,7 +9,6 @@ div {
 .box {
     width: 90%;
     color: white;
-	/* float: left; */
 }
 
 .box-right {
@@ -22,28 +21,47 @@ div {
     margin-bottom: 50px;
 }
 .box-padding {
-    padding: 60px 30px;
+    padding: 40px 15px;
 }
-.qs {
-	/* background-image: img('/public/img/gallery/h1.jpg'); */
+.om {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(/img/banner1.jpg);
 	background-position: center ;
 	opacity: .85;
 }
-.hs {
-	/* background-color: #3fa7d6; */
+.au {
+	margin-top: 1em;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(/img/gallery/h3.jpg);
-	background-position: center;
-	/* width: max-content; */
+	background-size: cover;
 	opacity: .85;
 }
-.sc {
-    background-color: #a4a1ec;
+.bl {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(/img/bracelets.jpg);
+	background-position: left 85%;
+	background-size: cover;
+	opacity: .80;
+	background-repeat: no-repeat;
 }
+.nl {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(/img/neclases.jpg);
+	background-position: left 75%;
+	background-size: cover;
+	opacity: .80;
+	background-repeat: no-repeat;}
+.cj {
+	background-color: orangered;
+}
+
 .heading-about {
 	text-align: left;
 	font-family: 'Arizonia';
 	font-size: 4.5em;
+}
+@media(max-width: 1200px){
+	.heading-about {
+		text-align: left;
+		font-family: 'Arizonia';
+		font-size: 2.5em;
+	}
 }
 .about-message {
 	margin: 5px;
@@ -53,10 +71,10 @@ div {
 }
 hr { 
     display: block;
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
-  border-style: inset;
-  border-width: 1px;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	border-style: inset;
+	border-width: 1px;
 }
 
 p {
@@ -78,7 +96,7 @@ p a:hover {
 
 @media(min-width: 1200px) {
     .box-about {
-        /* padding: 50px 100px; */
+        padding: 50px 100px;
     }
 
     .heading-about {
@@ -87,16 +105,12 @@ p a:hover {
     .box-padding {
         padding: 60px 100px;
     }
-    .qs {
-        text-align: end;
+    .om .au {
+		text-align: end;
     }
     .sc {
         text-align: end;
     }
-}
-
-.content__item-img {
-    background-image: url(images/17.jpg);
 }
 
 .content {

@@ -28,6 +28,7 @@
 }
 .horizontal-center {
     margin: 0 auto;
+    text-align: right;
 }
 .margin-bottom-md {
     margin-bottom: 3rem;
@@ -36,14 +37,14 @@
     font-family: 'Arizonia';
     font-size: 6em;
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     color: white;
 
     /* flexbox */
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: right;
 
     /* Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(/img/gallery/i4.jpg);
@@ -79,8 +80,12 @@
     text-decoration: none;
 
 }
+.maplinks {
+    /* margin-top: 1.5em; */
+    margin: 1.5em 0em 0em 0em;
 
-@media only screen and (min-width: 576px) {
+}
+/* @media only screen and (min-width: 576px) {
     .address, .contact-info, .hours-of-op {
         margin: 0;
     }
@@ -103,8 +108,8 @@
     .hours {
         margin-top: 0;
     }
-}
-@media only screen and (min-width: 768px) {
+} */
+/* @media only screen and (min-width: 768px) {
     .address, .contact-info, .hours-of-op {
         margin: 20px;
     }
@@ -118,10 +123,5 @@
     }
     #map {
         display: block;
-    }
-}
-/* @media only screen and (min-width: 992px) {
-    .hours-of-op {
-        padding-left: 100px;
     }
 } */

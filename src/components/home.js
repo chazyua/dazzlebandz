@@ -7,6 +7,7 @@ import Pricing from './pricing';
 import Contact from './Contact';
 import Modal from './Modal';
 import Gallery from './Pics';
+import Products from './Products'
 
 class home extends React.Component {
     scrollToMessage = () => {
@@ -22,8 +23,9 @@ class home extends React.Component {
                 <section name="home">
                     <div className="hero">
                         <div className="hero-inner">
-                            <h1 className="display-1">Dazzle Bandz</h1>
+                            <h2 className="display-1">DazzleBandz</h2>
                             <h4>by Nicole K.</h4>
+                            <h4>[work in progress]</h4>
                             {/* <button data-toggle="modal" data-target="#ModalCenter" className="btn mt-4 call-to-action btn-rounded">Click for a coupon</button> */}
                             <Modal 
                                 scrollToMessage={this.scrollToMessage}
@@ -34,8 +36,9 @@ class home extends React.Component {
                         <p className="mb-0">" Add Sparkle To Your Life "</p>
                     </div>
                 </section>
-                <About/>
+                <Products />
                 <Gallery />
+                <About/>
                 <Pricing />
                 <Contact />    
             </div>

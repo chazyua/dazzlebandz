@@ -9,6 +9,12 @@
     font-weight: 700;
     font-size: 8rem;
 }
+@media(max-width: 1200px){
+    .display-1{
+        font-size: 5em;
+    }
+}
+
 .hero {
     width: 100vw;
     height: 100vh;
@@ -19,8 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    text-align: center;
+    text-align: right;
 
     /* Background styles */
     background-image: linear-gradient(rgba(27, 16, 0, 0.7),rgba(0, 0, 0, 0.1)), url(/img/dbBanner1.jpg);

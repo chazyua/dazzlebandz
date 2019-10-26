@@ -6,20 +6,20 @@ const Contact = () => {
     return (
         <section name="contact">
             <p className="contact">Contact</p>
-            <div className="container py-5 margin-bottom-md">
-                <div className="row text-center margin-bottom-md">
-                    <div className="col-sm-6 enough-space left align-center">
+            <div className="container maplinks">
+                <div className="row text-right margin-bottom-md">
+                    <div className="col-sm-6 enough-space left align-center text-left-align">
                         <div className="horizontal-center">
                             <div className="address">
-                                <h2>Dazzle Bandz</h2>
+                                <h2>DazzleBandz</h2>
                                 <p className="sameline">Chicago, IL</p>
                                 <p className="sameline"></p>
                             </div>
                             <div className="contact-info">
-                                <p className="sameline"> <i class="fa fa-phone" aria-hidden="true"></i> 714-381-5571</p>
-                                <p className="sameline"> <i class="fa fa-facebook" aria-hidden="true"></i> DazzleBandz</p>
-                                <p className="sameline"> <i class="fa fa-instagram" aria-hidden="true"></i> nkdazzlebandz</p>
-                                <p className="sameline"> <i class="fa fa-envelope-o" aria-hidden="true"></i> dazzlebandz@gmail.com</p>
+                                <a href="tel:+1-714-381-5571"><p className="sameline"> <i class="fa fa-phone" aria-hidden="true"></i> 714-381-5571</p></a>
+                                <a href="https://facebook.com/dazzlebandz"><p className="sameline"> <i class="fa fa-facebook" aria-hidden="true"></i> facebook.com/dazzlebandz</p></a>
+                                <a href="https://www.instagram.com/nkdazzlebandz/"><p className="sameline"> <i class="fa fa-instagram" aria-hidden="true"></i> nkdazzlebandz</p></a>
+                                <a href="mailto:dazzlebandz@gmail.com"><p className="sameline"> <i class="fa fa-envelope-o" aria-hidden="true"></i> dazzlebandz@gmail.com</p></a>
                             </div>
                         </div>
                     </div>
