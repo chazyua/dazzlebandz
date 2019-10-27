@@ -18,7 +18,7 @@ div {
 }
 
 .spacing {
-    margin-bottom: 50px;
+    margin-bottom: 2em;
 }
 .box-padding {
     padding: 40px 15px;
@@ -48,7 +48,11 @@ div {
 	opacity: .80;
 	background-repeat: no-repeat;}
 .cj {
-	background-color: orangered;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.5)), url(/img/neclases.jpg);
+	background-position: left 75%;
+	background-size: cover;
+	opacity: .80;
+	background-repeat: no-repeat;
 }
 
 .heading-about {

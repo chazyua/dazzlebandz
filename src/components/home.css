@@ -13,12 +13,22 @@
     .display-1{
         font-size: 5em;
     }
+    .message {
+        font-size: 2em;
+    }
+}
+@media(max-width: 800px){
+    .display-1{
+        font-size: 4em;
+    }
+    .message {
+        font-size: 2em;
+    }
 }
 
 .hero {
     width: 100vw;
     height: 100vh;
-
     color: white;
 
     /* flexbox */
@@ -48,10 +58,16 @@
     background-color: #01ae79;
 }
 
-.message .mb-0 {
-    padding: 100px 0;
+.message {
+    padding: 50px 0;
     margin: 0 auto;
     text-align: center;
     font-family: 'Arizonia';
     font-size: 5em;
+}
+
+.inquireButton {
+    text-align: center;
+    /* color: red; */
+    /* margin: 1em; */
 }

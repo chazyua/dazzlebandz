@@ -8,7 +8,7 @@ const about = () => {
     return (
       <section>
         <Element name="about">
-        <p>About Us</p>
+        <p className="pricing-format">About Us</p>
           <div className="container-fluid d-flex justify-content-end">
             <div className="box">
               <div className="spacing">

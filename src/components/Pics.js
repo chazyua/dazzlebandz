@@ -23,6 +23,7 @@ const Pics = () => {
       <section name="pics">
         <div className="lightBox">
           <p>Gallery</p>
+          <h6 className="gallery-sub">Find more on <a href="https://facebook.com/dazzlebandz"><i class="fa fa-facebook" aria-hidden="true"></i></a> and <a href="https://www.instagram.com/nkdazzlebandz/"><i class="fa fa-instagram" aria-hidden="true"></i></a></h6>
           <Gallery photos={photos} onClick={openLightbox} />
           <ModalGateway>
             {viewerIsOpen ? (

@@ -8,3 +8,8 @@
     margin: .1em;
     text-align: center;
 }
+
+.gallery-sub {
+    font-family: 'Libre Baskerville', serif;
+    color: darkslategray;
+}

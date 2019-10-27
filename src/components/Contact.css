@@ -19,9 +19,9 @@
 .min-width {
     min-width: 80px;
 }
-.text-left-align {
+/* .text-left-align {
     text-align: left;
-}
+} */
 .align-center {
     display: flex;
     align-items: center;
@@ -81,11 +81,11 @@
 
 }
 .maplinks {
-    /* margin-top: 1.5em; */
-    margin: 1.5em 0em 0em 0em;
+    margin-top: 1.5em;
+    /* margin-right: 0em; */
 
 }
-/* @media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     .address, .contact-info, .hours-of-op {
         margin: 0;
     }
@@ -108,20 +108,21 @@
     .hours {
         margin-top: 0;
     }
-} */
-/* @media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 768px) {
     .address, .contact-info, .hours-of-op {
-        margin: 20px;
+        margin: 10px;
     }
     .address, .contact-info {
         padding-left: 0px;
-        text-align: center;
+        /* text-align: center; */
+        word-spacing: .5em;
     }
     .enough-space {
-        padding-left: 15px;
-        padding-right: 15px;
+        /* padding-left: 15px; */
+        /* padding-right: 15px; */
     }
     #map {
         display: block;
     }
-} */
+}

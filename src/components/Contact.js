@@ -5,13 +5,15 @@ import './Contact.css';
 const Contact = () => {
     return (
         <section name="contact">
-            <p className="contact">Contact</p>
+            {/* <p className="contact">Contact</p> */}
+            <p className="pricing-format">Contact</p>
+
             <div className="container maplinks">
                 <div className="row text-right margin-bottom-md">
                     <div className="col-sm-6 enough-space left align-center text-left-align">
                         <div className="horizontal-center">
                             <div className="address">
-                                <h2>DazzleBandz</h2>
+                                <h1>DazzleBandz</h1>
                                 <p className="sameline">Chicago, IL</p>
                                 <p className="sameline"></p>
                             </div>
@@ -23,9 +25,9 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6 enough-space right hours">
+                    <div className="col-sm-5 enough-space right hours">
                         <div id="map">
-                            <iframe title="Dazzle Bandz Map" className="google-maps-iframe" src="https://www.google.com/maps/embed?pb=" frameBorder="0" allowFullScreen></iframe>
+                            <iframe title="Dazzle Bandz Map" className="google-maps-iframe" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=chicago+(DazzleBandz)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameBorder="0" allowFullScreen></iframe>
                         </div>
                     </div> 
                 </div>

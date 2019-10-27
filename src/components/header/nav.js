@@ -34,11 +34,15 @@ export default class Nav extends React.Component {
                         <li className="nav-item">
                             <Link className="nav-link item-click" to="home" spy activeClass="active" smooth offset={-72}>Home <span className="sr-only">(current)</span></Link>
                         </li>
+
                         <li className="nav-item">
-                            <Link className="nav-link item-click" to="about" spy activeClass="active" smooth offset={-72}>About</Link>
+                            <Link className="nav-link item-click" to="products" spy activeClass="active" smooth offset={-72}>Products</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link item-click" to="pics" spy activeClass="active" smooth offset={-72}>Gallery</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link item-click" to="about" spy activeClass="active" smooth offset={-72}>About</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link item-click" to="contact" spy activeClass="active" smooth offset={-72}>Contact</Link>
