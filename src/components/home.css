@@ -1,4 +1,8 @@
 
+body {
+    line-height: 1.4;
+}
+
 .home {
     font-family: 'Libre Baskerville', serif;
     background: linear-gradient(150deg, rgba(255, 204, 36, 0.171), rgb(255, 255, 255));
@@ -8,6 +12,14 @@
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 8rem;
+    color: #e7e7e5;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 10px rgba(0, 0, 0, 0.9);
 }
 @media(max-width: 1200px){
     .display-1{
@@ -15,6 +27,10 @@
     }
     .message {
         font-size: 2em;
+        padding: 30px 0 30px 0;
+    }
+    .addSparkle {
+        font-size: .8em;
     }
 }
 @media(max-width: 800px){
@@ -23,7 +39,31 @@
     }
     .message {
         font-size: 2em;
+        padding: 30px 0 30px 0;
     }
+}
+
+.addSparkle {
+    color: #4d4d4d;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 5px 20px rgba(255, 193, 59, 0.7);
+}
+
+.byNicoleK {
+    font-family: 'Kaushan Script';
+    font-size: 2.2em;
+    letter-spacing: .05em;
+    color: #e0dfdc;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 10px rgba(0, 0, 0, 0.9);
 }
 
 .hero {
@@ -42,8 +82,9 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
+
 .call-to-action {
     color: white;
     background-color: #21ce99;
@@ -59,7 +100,7 @@
 }
 
 .message {
-    padding: 50px 0;
+    padding: 15px 0 30px 0;
     margin: 0 auto;
     text-align: center;
     font-family: 'Arizonia';
@@ -68,6 +109,32 @@
 
 .inquireButton {
     text-align: center;
-    /* color: red; */
-    /* margin: 1em; */
+}
+
+.social {
+    color: white;
+    margin-top: -3.5em;
+    margin-bottom: 3.5em;
+    font-size: 1.5em;
+}
+
+.cornerLink {
+    margin: 1.5em;
+    color: white;
+    opacity: 0.5;
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+    .social {
+        margin-top: -6em;
+        opacity: 0.5;
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-device-width : 767px) { 
+    .social {
+        margin-top: -6em;
+    }
 }

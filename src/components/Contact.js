@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './Contact.css';
+import './contact.css';
 
 const Contact = () => {
     return (
         <section name="contact">
             {/* <p className="contact">Contact</p> */}
-            <p className="pricing-format">Contact</p>
+            <p className="lightBox">Contact</p>
 
             <div className="container maplinks">
                 <div className="row text-right margin-bottom-md">
@@ -14,10 +14,12 @@ const Contact = () => {
                         <div className="horizontal-center">
                             <div className="address">
                                 <h1>DazzleBandz</h1>
-                                <p className="sameline">Chicago, IL</p>
+                                <h5>by Nicole K.</h5>
+                                
                                 <p className="sameline"></p>
                             </div>
                             <div className="contact-info">
+                                <p className="sameline contact-info">Chicago, IL</p>
                                 <a href="tel:+1-714-381-5571"><p className="sameline"> <i class="fa fa-phone" aria-hidden="true"></i> 714-381-5571</p></a>
                                 <a href="https://facebook.com/dazzlebandz"><p className="sameline"> <i class="fa fa-facebook" aria-hidden="true"></i> facebook.com/dazzlebandz</p></a>
                                 <a href="https://www.instagram.com/nkdazzlebandz/"><p className="sameline"> <i class="fa fa-instagram" aria-hidden="true"></i> nkdazzlebandz</p></a>

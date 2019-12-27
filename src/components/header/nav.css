@@ -7,7 +7,12 @@
 
 .navbar-brand {
     padding: 0 5px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
+}
+
+#db-logo {
+    height: 3em;
+    opacity: .6;
 }
 
 .item-click {
@@ -40,4 +45,9 @@
     text-align: center;
     width: 5.5em;
     float: right;
+    color: #e7e7e5;
+    text-shadow: 
+      /* 0 -1px 0 #fff,  */
+      0 1px 0 #2e2e2e, 
+      0 5px 10px rgba(0, 0, 0, 0.9);
 }

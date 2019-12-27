@@ -2,7 +2,7 @@
   "name": "dazzlebandz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dazzlebandz.chaze.net",
+  "homepage": "https://dazzlebandz.com",
   "dependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",

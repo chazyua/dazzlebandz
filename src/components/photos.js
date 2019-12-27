@@ -25,6 +25,11 @@ export const photos = [
       height: 1
     },
     {
+      src: "/img/gallery/v5.jpg",
+      width: 3,
+      height: 4
+    },
+    {
       src: "/img/gallery/i4.jpg",
       width: 1,
       height: 1
@@ -41,6 +46,11 @@ export const photos = [
     },
     {
       src: "/img/gallery/i5.jpg",
+      width: 1,
+      height: 1
+    },
+    {
+      src: "/img/gallery/i11.jpg",
       width: 1,
       height: 1
     },
@@ -65,7 +75,7 @@ export const photos = [
       height: 4
     },
     {
-      src: "/img/gallery/i11.jpg",
+      src: "/img/gallery/i12.jpg",
       width: 1,
       height: 1
     },

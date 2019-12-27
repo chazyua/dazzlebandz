@@ -4,30 +4,31 @@ import { Element } from 'react-scroll';
 import './about.css'
 
 
-const about = () => {
+const About = () => {
     return (
       <section>
         <Element name="about">
-        <p className="pricing-format">About Us</p>
+        <p className="lightBox">About Us</p>
           <div className="container-fluid d-flex justify-content-end">
             <div className="box">
               <div className="spacing">
                 <div className="box-padding au">
                   <div className="row align-items-center">
-                    <div className="col-lg-5 col-xl-4 about-message">
+                  <div className="col">
+                      <div>
+                        <p className="heading-about">Who We Are</p>
+                        <hr />
+                      </div>
+                    </div>
+                    <div className="col-lg-6 col-xl-5 about-message">
                       {/* <h4 className="about-subtitle">About Us</h4> */}
-                      <p>
+                      <p className="description">
                         Dazzle Bandz is a family-owned hand made Jewelry Company
                         using the finest material acquired from New York and Los
                         Angeles.
                       </p>
-                      <hr />
                     </div>
-                    <div className="col">
-                      <div>
-                        <p className="heading-about">Who We Are</p>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -43,8 +44,8 @@ const about = () => {
                       <p className="heading-about">Our Mission</p>
                       <hr />
                     </div>
-                    <div className="col-lg-6 col-xl-5 about-message">
-                      <p>
+                    <div className="col-lg-6 col-xl-6 about-message">
+                      <p className="description">
                         To give every woman the means to style her
                         own life. We get great joy out of designing irresistible
                         jewelry and yet jewelry is just the tangible expression
@@ -65,4 +66,4 @@ const about = () => {
     );
 };
 
-export default about;
+export default About;

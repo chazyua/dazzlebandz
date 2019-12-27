@@ -2,14 +2,13 @@ import React from "react";
 import { scroller } from "react-scroll";
 
 import "./home.css";
-import About from "./about";
-import Pricing from "./pricing";
+import About from "./About";
 import Contact from "./Contact";
 import Modal from "./Modal";
 import Gallery from "./Pics";
 import Products from "./Products";
 
-class home extends React.Component {
+class Home extends React.Component {
   scrollToContact = () => {
     scroller.scrollTo("contact", {
       smooth: true,
@@ -24,32 +23,36 @@ class home extends React.Component {
           <div className="hero">
             <div className="hero-inner">
               <h2 className="display-1">DazzleBandz</h2>
-              <h4>by Nicole K.</h4>
+              <h3 className="byNicoleK">by Nicole K.</h3>
             </div>
+            
           </div>
+          <div className="social">
+                <a
+                  className="cornerLink"
+                  href="https://facebook.com/dazzlebandz"
+                >
+                  <i className="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <br/>
+                <a
+                  className="cornerLink"
+                  href="https://www.instagram.com/nkdazzlebandz/"
+                >
+                  <i className="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </div>
           <div name="message" className="container message">
-            <p className="mb-0">" Add Sparkle To Your Life "</p>
+            <p className="addSparkle">" Add Sparkle To Your Life "</p>
           </div>
         </section>
         <Products />
-
         <Gallery />
         <About />
-        {/* <Pricing /> */}
-        {/* <div className="inquireButton">
-          <button
-            data-toggle="modal"
-            data-target="#ModalCenter"
-            className="btn mt-4 call-to-action btn-rounded"
-          >
-            Inquire For Pricing
-          </button>
-          <Modal scrollToContact={this.scrollToContact} />
-        </div> */}
         <Contact name="contact" />
       </div>
     );
   }
 }
 
-export default home;
+export default Home;
