@@ -13,6 +13,7 @@
 #db-logo {
     height: 3em;
     opacity: .6;
+    
 }
 
 .item-click {
@@ -43,6 +44,8 @@
 }
 .nav-link {
     text-align: center;
+    /* font-family: 'Rubik'; */
+    font-size: 1.1em;
     width: 5.5em;
     float: right;
     color: #e7e7e5;

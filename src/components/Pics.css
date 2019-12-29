@@ -12,4 +12,6 @@
 .gallery-sub {
     font-family: 'Libre Baskerville', serif;
     color: darkslategray;
+    float: right;
+    opacity: .7;
 }
