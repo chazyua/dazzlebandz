@@ -3,7 +3,7 @@
 
 ReactJS web-application for small Chicago bussiness.
 
-![](http://artem-yerep.com/static/img/db.jpg)
+![](http://artem-yerep.com/static/img/dazzlebandz.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
